@@ -1,2 +1,2 @@
-# Proyecto_WEB---SCESI
-Este repositorio contendrá el proyecto de un blog 
+# Estructura html
+Posee la estructura inicial de un blog
