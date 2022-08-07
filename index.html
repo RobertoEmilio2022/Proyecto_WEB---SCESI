@@ -3,10 +3,14 @@
 <head>
     <meta charset="utf-8">
     <title>Ejercicio 1</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
 </head>
 <body>
     <header></header>
-    <aside>
+    <aside id="aside1">
         <h4>Variantes del proyecto</h4>
         <ul>
             <li><a href="">Nemium A</a></li>
@@ -17,7 +21,7 @@
         </ul>
         </details>
     </aside>
-    <aside>
+    <aside id="aside2">
         <h4>CONTENIDO</h4>
         <details open>
             <summary>Setup</summary>
@@ -66,12 +70,13 @@
                 <h3>4. GitHub</h3>
                 <p>Así como en Facebook te encuentran tus amigos, en Github te encuentran otras programadoras y programadores de todo el mundo, en vez de subir fotos de tus viajes aquí subes tu código y puedes elegir hacerlo “open source” o guardarlo de manera privada, Github será esencial para almacenar tu futuro portafolio.</p>
             </article>
-        </section>
             <blockquote>
                 “Este es el inicio de tu carrera como Desarrollador Web”
                 <br>
                 - Leonidas Esteban
             </blockquote>
+        </section>
+            
         <section>
             <h2>Conceptos esenciales del Desarrollo Web</h2>
             <article id="html">
@@ -163,7 +168,7 @@
                 <form>
                     <input type="text" placeholder="Nombre"">
                     <input type="email" placeholder="Correo electrónico">
-                    <input type="submit" value="Suscribirme">
+                    <input id="enviar" type="submit" value="Suscribirme">
                 </form> 
             </article>
         </section>
@@ -171,9 +176,9 @@
     <footer>
         <p>&copy; Leonidas Esteban 2021</p>
         <ul>
-            <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
-            <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
-            <li><a href="https://twitter.com/" target="_blank">Twitter</a></li>
+            <li class="lista_footer"><a href="https://www.instagram.com/" target="_blank"><img src="instagram.png" alt="Instagram"></a></li>
+            <li class="lista_footer"><a href="https://www.facebook.com/" target="_blank"><img src="facebook.png" alt="Facebook"></a></li>
+            <li class="lista_footer"><a href="https://twitter.com/" target="_blank"><img src="twitter.png" alt="Twitter"></a></li>
         </ul>
     </footer>
 </body>

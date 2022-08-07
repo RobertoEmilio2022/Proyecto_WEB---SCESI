@@ -1,0 +1,46 @@
+* {
+    max-width: 1366px;
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    
+    padding: 100px 342.6px;
+    background-image: url("patron-1.png");
+    background-size: 50px 50px;
+}
+aside {
+    margin: 30px 30px;
+    width: 20%;
+    display: flex;
+    flex-flow: row wrap;
+}
+main {
+    width: 80%;
+}
+h3 {
+    text-decoration: underline;
+}
+article {
+    margin: 20px;
+}
+input {
+    border-radius: 10px;
+}
+#enviar {
+    background-color: black;
+    color: #FFFFFF;
+}
+
+footer{
+    margin: 40px 0px 0px;
+    background-color: #212429;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+}
+.lista_footer{
+    display: inline;
+    list-style-type: none;
+    margin: 0px 8px;
+}
